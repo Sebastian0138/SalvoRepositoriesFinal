@@ -14,7 +14,7 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private Long id;
-        private String userName;
+        private String userNaasdasdasdase;
 
     @OneToMany(mappedBy="playerId", fetch=FetchType.EAGER)
     private Set<GamePlayer> gamePlayer;
