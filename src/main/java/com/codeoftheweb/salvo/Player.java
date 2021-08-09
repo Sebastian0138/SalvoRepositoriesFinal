@@ -19,7 +19,7 @@ public class Player {
     @OneToMany(mappedBy="playerId", fetch=FetchType.EAGER)
     private Set<GamePlayer> gamePlayer;
 
-    public Player() { }
+    public Player() { }s
 
     public Player(String userName) {
         this.userName = userName;
